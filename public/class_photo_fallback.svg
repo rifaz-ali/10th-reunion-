@@ -1,0 +1,21 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#EFE8DC"/>
+  <!-- Photo border frame -->
+  <rect x="40" y="40" width="1120" height="820" rx="8" fill="#FBF8F3" stroke="#D8CABA" stroke-width="2"/>
+  <rect x="60" y="60" width="1080" height="740" rx="4" fill="#3D3228"/>
+  
+  <!-- Subtle photo backdrop -->
+  <rect x="60" y="60" width="1080" height="350" fill="#4A5D6E" fill-opacity="0.4"/>
+  <rect x="60" y="410" width="1080" height="390" fill="#8C7053" fill-opacity="0.3"/>
+
+  <!-- Centered emblem and title -->
+  <circle cx="600" cy="380" r="70" fill="#FAF5ED" fill-opacity="0.95" stroke="#C85A32" stroke-width="3"/>
+  <text x="600" y="375" text-anchor="middle" font-size="48">🏫</text>
+  <text x="600" y="420" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#C85A32" letter-spacing="2">10TH D</text>
+
+  <text x="600" y="520" text-anchor="middle" font-family="serif" font-size="44" font-weight="bold" fill="#FAF5ED" letter-spacing="1">10th Standard D Section</text>
+  <text x="600" y="570" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#E2BA7E" letter-spacing="4">2018 PASSOUT REUNION</text>
+
+  <text x="600" y="640" text-anchor="middle" font-family="serif" font-size="20" font-style="italic" fill="#E0D7CC">The Official Class Photograph</text>
+  <text x="600" y="730" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#D0C4B4">Click to view / upload full resolution photo</text>
+</svg>

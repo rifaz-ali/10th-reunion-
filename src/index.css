@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+    --font-handwriting: 'Caveat', cursive, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #FAF7F2;
+    color: #22201E;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive, sans-serif;
+}
+
+/* Subtle vintage paper texture overlay */
+.paper-texture {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#E8E2D5 0.75px, transparent 0.75px), radial-gradient(#E8E2D5 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Authentic Polaroid photo card style */
+.polaroid-card {
+  background: #FFFFFF;
+  box-shadow: 0 10px 25px -5px rgba(34, 32, 30, 0.08), 0 8px 10px -6px rgba(34, 32, 30, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.polaroid-card:hover {
+  transform: translateY(-4px) rotate(0deg) scale(1.02);
+  box-shadow: 0 20px 30px -8px rgba(34, 32, 30, 0.14), 0 10px 15px -5px rgba(34, 32, 30, 0.06), 0 0 0 1px rgba(0, 0, 0, 0.06);
+}
+
+/* Washi tape strip effect */
+.washi-tape {
+  background: rgba(224, 185, 126, 0.7);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(1px);
+}
